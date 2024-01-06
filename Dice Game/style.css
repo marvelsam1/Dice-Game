@@ -1,0 +1,47 @@
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --clr: rgb(243, 228, 21);
+    --font-fam1: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-fam2: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgba(39, 50, 80, 0.952);
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: var(--clr);
+    font-family: var(--font-fam2);
+    font-size: 6rem;
+}
+
+.players{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    color: var(--clr);
+    font-family: var(--font-fam1);
+    padding: 30px 120px;
+}
+
+img{
+    width: 25rem;
+    height: 25rem;
+}
